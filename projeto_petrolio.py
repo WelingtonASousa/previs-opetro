@@ -7,12 +7,12 @@ Original file is located at
     https://colab.research.google.com/drive/1LElorRTEl3POLHPo_U26Cuk_ON7uOC9g
 """
 
-# pip install streamlit fbprophet yfinance plotly
+# pip install streamlit prophet yfinance plotly
 import streamlit as st
 from datetime import date
-
-from fbprophet import Prophet
-from fbprophet.plot import plot_plotly
+import yfinance as yf
+from prophet import Prophet
+from prophet.plot import plot_plotly
 from plotly import graph_objs as go
 
 START = "2015-01-01"
