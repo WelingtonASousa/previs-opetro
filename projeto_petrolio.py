@@ -8,7 +8,6 @@ Original file is located at
 """
 
 #!pip install prophet
-
 #!pip install streamlit
 #!pip instal yfinance
 #!pip install plotly
