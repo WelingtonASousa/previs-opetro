@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1LElorRTEl3POLHPo_U26Cuk_ON7uOC9g
 """
 
-!pip install prophet
+#!pip install prophet
 
 !pip install streamlit
 !pip instal yfinance
